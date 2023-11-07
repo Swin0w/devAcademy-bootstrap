@@ -1,3 +1,41 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;;
+}
+.sf-navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav a {
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar-nav a.active{
+    color: #fed136!important;
+}
+
+.navbar-nav a:hover {
+    color: #fed136;
+}
+
+.navbar-brand {
+    color: #fed136!important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #fed136;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
